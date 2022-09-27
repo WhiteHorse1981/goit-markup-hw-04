@@ -18,6 +18,7 @@
     --hero-text-color: #FFFFFF;
     --additional-background: #F5F4FA;
     --social-icons-color: #AFB1B8;
+    --button-activ-color: #188CE8;
 }
 
 body {
@@ -216,8 +217,8 @@ color: #2196F3;
     line-height: 1.87;
     letter-spacing: 0.06em;
 
-    color: var(--title-text-color);
-    background-color: var(--primary-backgraund-color);
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
@@ -227,8 +228,7 @@ color: #2196F3;
 .hero button:hover,
 .hero button:focus 
 {
-    color: var(--hero-text-color);
-    background-color: var(--accent-color);
+    background-color: var(--button-activ-color);
 }
 
 .bcg {
@@ -360,6 +360,10 @@ color: #2196F3;
 
 .item-text {
     padding: 30px 0;
+}
+
+.team-img {
+    display: block;
 }
 
 
