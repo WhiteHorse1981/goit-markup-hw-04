@@ -414,6 +414,9 @@ color: #2196F3;
 .customers .item {
     border: 1px solid #AFB1B8;
     border-radius: 3px;
+    height: 92px;
+    width: calc((100% - 150px) / 6);
+    box-sizing: border-box;
 }
 
 .customers .item:not(:last-child) {
@@ -422,7 +425,7 @@ color: #2196F3;
 
 .customer .link {
     display: flex;
-    padding: 14px 30px;
+    padding: 16px 32px;
     color: var(--social-icons-color);
 }
 
