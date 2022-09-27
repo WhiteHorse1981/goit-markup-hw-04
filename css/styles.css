@@ -76,8 +76,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 47px;
+    padding-bottom: 47px;
 }
 
 
@@ -285,10 +285,13 @@ color: #2196F3;
     border-radius: 4px;
 }
 
+.business  {
+    padding-top: 94px;
+}
 
 /* main секція Фото робіт */
 .profile {
-    padding-top: 0;
+    padding-bottom: 94px;;
 }
 
 .team h2, .profile h2 {
@@ -317,6 +320,10 @@ color: #2196F3;
     margin-right: 30px;
 }
 
+.examples-img {
+    display: block;
+}
+
 
 /* main Команда співробітників */
 .bcg-team {
@@ -324,7 +331,7 @@ color: #2196F3;
 }
 
 .team h2 {
-    padding: 94px 0 50px 0;
+    padding: 47px 0 50px 0;
 }
 
 .team-photo {
@@ -366,9 +373,8 @@ color: #2196F3;
     display: block;
 }
 
-
 .team {
-    padding-top: 0;
+    padding-bottom: 94px;
 }
 
 .social {
@@ -405,6 +411,11 @@ color: #2196F3;
     margin-bottom: 50px;
     text-align: center;
 
+}
+
+.regular-customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .customers {
@@ -609,6 +620,11 @@ color: #2196F3;
 
 .projects img {
     display: block;
+}
+
+.portfolio-projects {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
